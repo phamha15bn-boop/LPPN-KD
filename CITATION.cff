@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this software and credit the upstream projects and STEAD dataset listed in THIRD_PARTY_NOTICES.md."
+title: "LPPN-KD: Knowledge Distillation Framework for Seismic Phase Picking"
+type: software
+authors:
+  - family-names: Song
+    given-names: Qineng
+    affiliation: Taiyuan University of Technology
+abstract: "EQTransformer-to-LPPN probability and projected feature distillation for seismic phase picking."

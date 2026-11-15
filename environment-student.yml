@@ -1,0 +1,9 @@
+# Base recipe. Select the CUDA wheel separately for the tested GPU build.
+name: lppn-kd-student
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - pip
+  - pip:
+      - -r requirements-student.txt

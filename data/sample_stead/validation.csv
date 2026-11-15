@@ -1,0 +1,3 @@
+trace_name,trace_category,source_id,p_arrival_sample,s_arrival_sample,split
+N12A.TA_20080503152835_EV,earthquake_local,nn00243937,600,1170,validation
+MONP2.AZ_20100914122640_EV,earthquake_local,ci10798157,700,1341,validation

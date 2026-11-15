@@ -1,0 +1,5 @@
+# The tested Windows CUDA build is torch==2.12.1+cu130 from the PyTorch CUDA 13.0 index.
+# See docs/REPRODUCIBILITY.md for the wheel installation command.
+torch==2.12.1
+numpy==2.4.6
+h5py==3.16.0

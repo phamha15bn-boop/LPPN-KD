@@ -1,0 +1,28 @@
+{
+  "dataset": "shanxi",
+  "variant": "LPPN-KD-CFP",
+  "seed": 42,
+  "batch_size": 128,
+  "epochs": 100,
+  "learning_rate": 0.0001,
+  "output_root": "outputs/formal",
+  "data": {
+    "train_hdf5": "local/shanxi/train.hdf5",
+    "train_csv": "local/shanxi/train.csv",
+    "validation_hdf5": "local/shanxi/validation.hdf5",
+    "validation_csv": "local/shanxi/validation.csv",
+    "test_hdf5": "local/shanxi/test.hdf5",
+    "test_csv": "local/shanxi/test.csv"
+  },
+  "teacher": {
+    "id": "EQT-shanxi_082",
+    "weight": "local/shanxi/shanxi_082.h5",
+    "sha256": "018F74A6624DC3619EA7CCA97DB45C9180C822FB19848F34B231662290AD6A74",
+    "p_protocol": "EQT082_P_DETERMINISTIC_OFF_V1",
+    "feature_protocol": "EQT082_PDEC4_F32_DETERMINISTIC_OFF_V1",
+    "min_confidence": 0.5,
+    "max_error_seconds": 0.5
+  },
+  "lambda_c": 0.5,
+  "lambda_fp": 365000
+}

@@ -1,0 +1,4 @@
+trace_name,trace_category,source_id,p_arrival_sample,s_arrival_sample,split
+TAFP.AV_20110610055154_EV,earthquake_local,ak0117ect2u0,598,1560,test
+WHAR.AG_20160518202536_EV,earthquake_local,nm60117422,900,1081,test
+PRZ.KR_20180115102754_NO,noise,,-1,-1,test

@@ -1,0 +1,52 @@
+{
+  "dataset": "STEAD",
+  "seed": 42,
+  "sources": {
+    "train": {
+      "hdf5": "train.hdf5",
+      "hdf5_bytes": 77660443968,
+      "csv": "train.csv"
+    },
+    "validation": {
+      "hdf5": "validation.hdf5",
+      "hdf5_bytes": 9617527528,
+      "csv": "validation.csv"
+    },
+    "test": {
+      "hdf5": "test.hdf5",
+      "hdf5_bytes": 9617191288,
+      "csv": "test.csv"
+    }
+  },
+  "split_counts_earthquake_noise": {
+    "train": [
+      8,
+      1
+    ],
+    "validation": [
+      2,
+      0
+    ],
+    "test": [
+      2,
+      1
+    ]
+  },
+  "trace_count": 14,
+  "distinct_earthquake_source_ids": 12,
+  "channel_order": [
+    "E",
+    "N",
+    "Z"
+  ],
+  "sample_rate_hz": 100,
+  "selection": "Seeded 1024-record reservoir per source split and category, then verified HDF5 match; unique earthquake source_id; 0 <= P < S < 6000; noise missing both arrivals normalized to -1.",
+  "files": {
+    "sample.hdf5": "738636f2da415f841c2ab0eb1cb48736179918f31087e33e4155f4f5ee788a1c",
+    "sample.csv": "0ab2745f3f4b9275a986a08f4d7fe056c0da7da4f827e6558abf2b43e2c663fd",
+    "sample_manifest.csv": "4bf21c9844b39a65a1b73fbc7acac60e8e1a5cfadbe2a1319997c8040da1e069",
+    "train.csv": "aabf3b66b3b74ba7c75da570a58ad55b85ca912adf6d92f456c0717b03ebb64c",
+    "validation.csv": "5d0236e7180d0fb3ad4aa3d4913a8caa0676b59ee2610bd6aca7b4922646fc0d",
+    "test.csv": "66e3ac1a4f1bfe620e4299177b611a8ce82e118a7f8874089f1ce8f34470d8e5"
+  }
+}

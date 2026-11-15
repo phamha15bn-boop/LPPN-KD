@@ -1,0 +1,15 @@
+trace_name,trace_category,source_id,p_arrival_sample,s_arrival_sample,split
+CAST.AK_20170202181312_EV,earthquake_local,ak15191864,698,1305,train
+KAN14.GS_20141222035849_EV,earthquake_local,ismpkansas70059108,600,976,train
+GDXB.NC_20061023074501_EV,earthquake_local,nc21544591,400,446,train
+SRV3.NN_20120709151000_EV,earthquake_local,nn00383765,500,736,train
+RDT.AV_20180718012039_EV,earthquake_local,ak19888369,600,1757,train
+B082.PB_20140703121753_EV,earthquake_local,ci15519129,600,1617,train
+ERR.CI_20120830091301_EV,earthquake_local,ci15208057,500,976,train
+WCN.NN_20080715140252_EV,earthquake_local,nn00254083,400,739,train
+AC07.GM_201710071052_NO,noise,,-1,-1,train
+N12A.TA_20080503152835_EV,earthquake_local,nn00243937,600,1170,validation
+MONP2.AZ_20100914122640_EV,earthquake_local,ci10798157,700,1341,validation
+TAFP.AV_20110610055154_EV,earthquake_local,ak0117ect2u0,598,1560,test
+WHAR.AG_20160518202536_EV,earthquake_local,nm60117422,900,1081,test
+PRZ.KR_20180115102754_NO,noise,,-1,-1,test

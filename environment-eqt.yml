@@ -1,0 +1,11 @@
+# Native Windows NVIDIA GPU recipe. The CUDA packages match TensorFlow 2.10.
+name: lppn-kd-eqt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.20
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - pip
+  - pip:
+      - -r requirements-eqt.txt
